@@ -1,0 +1,17 @@
+.letra-titulos {
+    font-family: 'Dancing Script', bold700;
+}
+
+.letra-subtitutlos {
+    font-family: 'Dancing Script', bold400;
+    font-size: 30px;
+    text-align: center;
+}
+
+.letra-links {
+    font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+.letra-p {
+    font-family: 'Cambay', sans-serif;
+}

@@ -1,17 +1,106 @@
+/*Esta clase cofigura las pripiedades de las fuentes de texto en los titulos h1*/
 .letra-titulos {
     font-family: 'Dancing Script', bold700;
 }
 
+/*Esta clase configura las propiedades de las fuenes de texto en los titulos h3*/
 .letra-subtitutlos {
     font-family: 'Dancing Script', bold400;
     font-size: 30px;
     text-align: center;
+    color: rgb(97, 41, 41);
 }
 
+/*Esta clase configura las propiedades de las fuentes de texto en los links*/
 .letra-links {
     font-family: 'Carrois Gothic SC', sans-serif;
+    letter-spacing: 3px;
 }
 
+/*Esta clase congirua las pripiedades de las fuentes de texto de los parrafos. */
 .letra-p {
     font-family: 'Cambay', sans-serif;
+    text-align: justify;
 }
+
+/*Esta clase encapsula los bloques con las medidas maximas establecidas para el body (header, sectios, asides, footers*/
+.wraper {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+/* Esta clase configura el section que contiene los divs de las habilidades */
+.section-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.section-flex img {
+    width: 40%;
+    margin: 0 20px 20px 20px;
+}
+
+.section-flex img:hover {
+    border: 2px solid black;
+}
+
+/*Esta clase configura las propiedades esteticas de la caja de figuras favoritas*/
+.punto-lista {
+    list-style-type: none;
+}
+
+/* Esta clase confiruga las propiedads del h3 en la caja de paginas favoritas*/
+.texto-lista {
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+/* Esta clase configura las propiedades de la caja de paginas favoritas en general*/
+.lista {
+    width: 220px;
+    background-color: rgba(228, 228, 196, 0.692);
+    border-radius: 0.5em;
+    position: fixed;
+    top: 2.5%;
+    right: 10px;
+}
+
+/* ESta clase configura las propiedades de los elementos de la lista en la caja de paginas favoritas*/
+.objeto-lista {
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+/* Esta clase condigura las propiedades de los textos de los elementos de la lista en la caja de paginas favoritas*/
+.objeto-lista-a {
+    text-decoration: none;
+    color: rgb(221, 111, 70);
+    padding: 10px 0;
+    display: block;
+}
+
+/* Esta clase es para el tamaño y configuración de la caja de fondo del header */
+.caja_encabezado {
+    overflow: hidden;
+    position: relative;
+    background-color: rgba(252, 157, 154, 0.603);
+    border-radius: 0.5em;
+}
+/* */
+
+/* Esta clase configura las propiedad del titutlo h1 del emcabezado*/
+.titulo-index {
+    margin-left: 30px;
+    font-size: 59px;
+    margin-bottom: 0em;
+}
+
+/* Esta clase configura las propiedades del parrafo del encabezado*/
+.titulo-p {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+

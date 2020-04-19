@@ -1,86 +1,38 @@
-.body {
-    margin: 0;
-    padding: 0;
-}
-
-/* Esta clase es para el tamaño y configuración de la caja de fondo del header */
-.caja_encabezado {
-    overflow: hidden;
-    position: relative;
-    background-color: rgba(252, 157, 154, 0.603);
-    border-radius: 0.5em;
-}
-/* */
-
-/* Esta clase configura las propiedad del titutlo h1 del emcabezado*/
-.titulo-index {
-    margin-left: 30px;
-    font-size: 59px;
-    margin-bottom: 0em;
-}
-
-/* Esta clase configura las propiedades del parrafo del encabezado*/
-.titulo-p {
-    margin-left: 30px;
-    margin-bottom: 30px;
-}
-
-/* Esta clase configura las propiedades de la caja de paginas favoritas en general*/
-.lista {
-    width: 220px;
-    background-color: rgba(228, 228, 196, 0.692);
-    border-radius: 0.5em;
-    position: fixed;
-    top: 2.5%;
-    right: 10px;
-}
-
-.wraper {
-    max-width: calc(100% - 220px - 200px);
-    margin-left: 100px;
-}
-
-/*Esta clase configura las propiedades esteticas de la caja de figuras favoritas*/
-.punto-lista {
-    list-style-type: none;
-}
-
-
-/* Esta clase confiruga las propiedads del h3 en la caja de paginas favoritas*/
-.texto-lista {
-    margin-left: 20px;
-    margin-bottom: 0px;
-}
-
-/* ESta clase configura las propiedades de los elementos de la lista en la caja de paginas favoritas*/
-.objeto-lista {
-    margin: 0 auto;
-    padding: 10px;
-    font-size: 15px;
-    text-decoration: none;
-}
-
-/* Esta clase condigura las propiedades de los textos de los elementos de la lista en la caja de paginas favoritas*/
-.objeto-lista-a {
-    text-decoration: none;
-    color: rgb(221, 111, 70);
-}
-
-/* Esta clase configura el section que contiene los divs de las habilidades */
-.section-habilidades {
-    display: flex;
+body {
+    background: url("imges/index/background.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;    
 }
 
 /* Esta clase configura los divs de las habilidades */
 .section-divs {
-    width: 400px;
+    width: 240px;
     height: 300 ;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(182, 212, 198, 0.801);
+    border-radius: 0.5em;
+    position: relative;
 }
 
-/*Esta clase configura la cajita de habilidades*/
+/*Esta clase configura los botenes de la cajita de habilidades*/
+.boton {
+    background-color: #F9CDAD;
+    text-align: center;
+    border-radius: 0.5em;
+    text-decoration: none;
+    color: black;
+    padding: 5px 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    transition: .8s;
+}
 
+/*Esta es una pseudo clase de la clase .boton para darle otro color en base al de la clase original....
+Las pseudo clases se manejan para generar eventos y posiciones. */
+.boton:hover {
+    background-color: rgb(252, 168, 107);
+}
 
-/*Esta clase configura el texto de parráfo de cajita de habilidades*/
-
-
-/*Esta clase configura el botón de ver detalles de la cajita de habilidades*/
